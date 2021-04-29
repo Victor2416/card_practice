@@ -43,6 +43,7 @@ body{
     object-position: center;
     transition: all 500ms ease;
     max-width: 100%;
+    cursor: pointer;
 }
 .imagen:hover{
     height: 100%;
