@@ -20,7 +20,7 @@ body{
 .card{
     margin: auto;
     width: 300px;
-    height: 640px;
+    height: 380px;
     background-color: #ffffff;
     box-shadow: 3px 3px 40px 0px rgba(0,0,0,0.64);
     -webkit-box-shadow: 3px 3px 40px 0px rgba(0,0,0,0.64);
@@ -30,7 +30,7 @@ body{
 .picture{   
     position: fixed;
     width: 300px;
-    height: 450px;
+    height: 200px;
     overflow: hidden;
     border-top-left-radius: 13px;
     border-top-right-radius: 13px;
@@ -38,7 +38,7 @@ body{
 }
 .imagen{
     width: 300px;
-    height: 450px;
+    height: 200px;
     object-fit: cover;
     object-position: center;
     transition: all 500ms ease;
@@ -55,7 +55,7 @@ body{
 }
 .context{
     width: 100%;
-   margin-top: 480px;
+   margin-top: 230px;
     transition: all 500ms ease;
 }
 .context h1{
