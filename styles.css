@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Karantina', cursive;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: rgb(255, 202, 55);
+}
+.card{
+    margin: auto;
+    width: 300px;
+    height: 640px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 40px 0px rgba(0,0,0,0.64);
+    -webkit-box-shadow: 3px 3px 40px 0px rgba(0,0,0,0.64);
+    -moz-box-shadow: 3px 3px 40px 0px rgba(0,0,0,0.64);
+    border-radius: 15px;
+}
+.picture{   
+    position: fixed;
+    width: 300px;
+    height: 450px;
+    overflow: hidden;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    transition: all 500ms ease;
+}
+.imagen{
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+    transition: all 500ms ease;
+    max-width: 100%;
+}
+.imagen:hover{
+    height: 100%;
+    width: 100%;
+    -moz-transform: scale(2) rotate(45deg);
+    -webkit-transform: scale(2) rotate(45deg);
+    -o-transform: scale(2) rotate(45deg);
+    -ms-transform: scale(2) rotate(45deg);
+    transform: scale(2) rotate(45deg);
+}
+.context{
+    width: 100%;
+   margin-top: 480px;
+    transition: all 500ms ease;
+}
+.context h1{
+    margin: 0 75px;
+    color: rgb(255, 164, 27);
+}
+.context p{
+    pointer-events: none;
+    margin: 20px 15px;
+    transition: all 500ms ease;
+}
+.context button{
+    margin: 10px 105px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 10px 15px;
+    border: none;
+    background-color: darkorange;
+    border-radius: 15px;
+    color: white;
+    transition: all 400ms ease;
+}
+button:hover{
+    background-color: darkgoldenrod;
+}
+button:active{
+    background-color: #000;
+}
